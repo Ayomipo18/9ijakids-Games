@@ -1,0 +1,18 @@
+.filter-container {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.filter-container select {
+  margin: 8px;
+  background-color: white;
+  padding: 6px;
+  border : 1px solid #95f1be;
+}
+
+.cfButton {
+  padding: 8px;
+  background-color: transparent;
+  text-decoration: underline;
+  font-style: italic;
+}

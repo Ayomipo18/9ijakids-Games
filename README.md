@@ -1,3 +1,7 @@
+A games catalog with search bar and filter feature.
+
+https://ayomipo18.github.io/9ijakids-Games/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

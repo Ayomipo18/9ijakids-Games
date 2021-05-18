@@ -2,13 +2,17 @@ import React from 'react';
 
 import './game.styles.css';
 
-export const Game = props => (
-  <div className='game-container'>
-    <img
-      alt='game'
-      src={`https://partners.9ijakids.com/index.php/thumbnail?game=${props.game.GameTitle}`}
-    />
-    <h2> {props.game.GameTitle} </h2>
-    <p> {props.game.GameDescription} </p>
-  </div>
-);
+const Game = ({ game }) => {
+  const { GameTitle, GameDescription, GameImage } = game;
+  return (
+    <div className="game-card">
+      <img src={GameImage} alt={GameTitle} />
+      <div>
+        <p className='game-title'>{GameTitle.toUpperCase()}</p>
+        <p className='game-desc'>{GameDescription}</p>
+      </div>
+    </div>
+  )
+}
+
+export default Game

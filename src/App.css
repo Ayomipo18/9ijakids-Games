@@ -5,5 +5,14 @@
 h1 {
   font-family: 'Bigelow Rules';
   font-size: 72px;
-  color: #034b09;
+  color: #15631f;
+  text-shadow: 0.5px 0.5px #000102;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
 }
